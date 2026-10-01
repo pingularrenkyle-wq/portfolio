@@ -40,7 +40,7 @@ const HomeView = {
                                         <i class="fa-regular fa-folder-open"></i>
                                         <h1 class="text-white text-2xl">Projects</h1>
                                     </div>
-                                    <p class="text-xs mt-2">Lorem ipsum dolor sit amet.</p>                    
+                                    <p class="text-xs mt-2">Some of the things I've built.</p>                    
                                 </div>
 
                                 <div class="flex flex-col items-center mt-3 justify-center">
@@ -74,7 +74,7 @@ const HomeView = {
                             <i class="fa-solid fa-school"></i>
                             <h1 class="text-white text-2xl">Education</h1>                            
                         </div>
-                        <p class="text-xs mt-2">Who am I and how I work.</p>                    
+                        <p class="text-xs mt-2">My academic journey so far.</p>                    
                     </div>
                     <div class="flex flex-col items-center mt-3 justify-center">
                         <img src="imgs/educ.png" class="w-[200px] lg:w-[300px] h-[119px]" alt="">
