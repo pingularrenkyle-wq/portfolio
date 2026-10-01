@@ -1,0 +1,72 @@
+    <div class="px-10 pt-10">
+
+        <h1 class="text-white text-[30px] lg:text-4xl">Build it once. Run it forever.</h1>
+        <p class="mt-3 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, eius.</p>
+
+        <div class="flex hidden sm:flex bg-black border-[1.5px] border-red-600 mt-5 rounded-xl items-center px-2 py-1">
+            <div class="w-[180px]">
+                <h3 class="border-r text-[15px] lg:text-[13px] border-white px-4">Tools I work with</h3>
+            </div>
+            <div class="grid grid-cols-3 lg:flex justify-center w-full">
+                <div class="flex w-full justify-center p-2 rounded-xl items-center ml-5"
+                    v-for="(logo, index) in logos"
+                    :key="index">
+                    <div class="flex items-center gap-2">
+                        <img class="w-4 lg:w-7" :src="logo.logo" alt="">
+                        <p class="text-xs">{{logo.name}}</p>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="lg:flex justify-center space-y-5 lg:space-y-0 gap-6 bg-black border-[1.5px] border-red-600 my-5 rounded-xl items-center px-[3rem] lg:px-6 py-6">
+                    <div class="rounded-xl lg:w-4/5 bg-black cursor-pointer border-[3px] border-red-600 lg:flex items-center justify-center px-3 py-3 items-center gap-6 hover:scale-105 transition-all duration-500 hover:shadow-[0_0_25px_rgba(255,0,0,1)]">
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-folder-open"></i>
+                                <h1 class="text-white text-2xl">Projects</h1>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet.</p>                    
+                        </div>
+
+                        <div class="flex flex-col items-center mt-3 justify-center">
+                            <img class="rounded-lg" src="imgs/enrollment-project.png" class="w-[200px] lg:h-[175px]" alt="">
+                        </div>
+                    </div>   
+                    
+                    <div class="rounded-xl bg-black cursor-pointer border-[3px] border-red-600 lg:w-2/5 items-center justify-center px-3 py-3 items-center gap-6 hover:scale-105 transition-all duration-500 hover:shadow-[0_0_25px_rgba(255,0,0,1)]">
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-user"></i>
+                                <h1 class="text-white text-2xl">About</h1>                            
+                            </div>
+                            <p class="text-xs mt-2">Who am I and how I work.</p>                    
+                        </div>
+                        <div class="flex flex-col items-center mt-3 justify-center">
+                            <img src="imgs/desk.jpg" class="w-[120px] h-[120px]" alt="">
+                        
+                        </div>
+                    </div>    
+                    
+                    
+                    <div class="rounded-xl bg-black cursor-pointer border-[3px] border-red-600 items-center justify-center px-3 py-3 items-center gap-6 hover:scale-105 transition-all duration-500 hover:shadow-[0_0_25px_rgba(255,0,0,1)]">
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-school"></i>
+                                <h1 class="text-white text-2xl">Education</h1>                            
+                            </div>
+                            <p class="text-xs mt-2">Who am I and how I work.</p>                    
+                        </div>
+                        <div class="flex flex-col items-center mt-3 justify-center">
+                            <img src="imgs/educ.png" class="w-[200px] lg:w-[300px] h-[119px]" alt="">
+                        </div>
+                    </div> 
+            </div> 
+
+            
+        </div>
+
+        
+
+    </div>

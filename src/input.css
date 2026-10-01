@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+button{
+    padding: 10px;
+
+}
+
+.pages{
+    padding-top: 20px;
+    align-items: center;
+    margin-top: 18px;
+    text-align: center;
+    width: 40rem;
+    height: 35rem;
+    background-color: white;
+}
+
+.cartButton{
+    background-color: rgb(4, 4, 94);
+   width: 3rem;
+
+}
+
+img{
+    width: 20rem;
+
+}
